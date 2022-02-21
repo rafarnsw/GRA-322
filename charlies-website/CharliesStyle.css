@@ -22,7 +22,6 @@ h2 {
 
 .grid > * {
     grid-column: main;
-    background-color: #FDFCFA;
 }
 
 header {
