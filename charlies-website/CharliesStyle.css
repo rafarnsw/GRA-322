@@ -8,11 +8,11 @@ h1 {
 }
 
 h2 {
-    color: #EB703C
-    font-size: 18;
+    color: #EB703C;
+    font-size: 18px;
     font-weight: 300;
-    letter-spacing: 1px
-    font-family: 'Monserrat,' sans-serif;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .grid {
