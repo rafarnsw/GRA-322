@@ -7,6 +7,14 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+    color: #EB703C
+    font-size: 18;
+    font-weight: 300;
+    letter-spacing: 1px
+    font-family: 'Monserrat,' sans-serif;
+}
+
 .grid {
     display: grid;
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
@@ -27,4 +35,8 @@ header {
         grid-gap: 3rem;
         grid-template-columns: 1fr 1fr;
     }
+}
+
+.header-text {
+    
 }
