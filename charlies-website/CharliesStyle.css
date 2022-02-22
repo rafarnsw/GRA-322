@@ -47,4 +47,10 @@ header {
 .my-button {
     background: #2F5057;
     padding: 1rem;
+    color: #EBE4D7;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
   }
