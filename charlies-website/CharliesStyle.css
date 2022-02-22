@@ -56,3 +56,9 @@ header {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
   }
+
+  .my-button{
+      margin: auto;
+      width: 70%;
+      padding: 10px;
+  }
