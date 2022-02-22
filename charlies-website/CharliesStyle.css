@@ -43,3 +43,8 @@ header {
     width: 70%;
     padding: 10px;
 }
+
+.my-button {
+    background: #2F5057;
+    padding: 1.5rem;
+  }
