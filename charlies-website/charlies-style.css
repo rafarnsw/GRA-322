@@ -8,6 +8,7 @@ h1 {
     font-weight: 300;
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
+    margin: 3%;
 }
 
 h2 {
@@ -32,7 +33,6 @@ header {
     background-color: #EBE4D7;
     display: flex;
     padding: 1rem 0;
-    margin: 3%;
           
 }
 
