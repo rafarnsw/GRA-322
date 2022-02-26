@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 
 h1 {
     color: #EB703C;
@@ -27,8 +30,11 @@ h2 {
 
 header {
     background-color: #EBE4D7;
+    display: flex;
     padding: 1rem 0;
+          
 }
+
 
 @media screen and (min-width: 800px) {
     .two-column {
@@ -55,7 +61,6 @@ header {
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    margin: auto;
   }
 
  
