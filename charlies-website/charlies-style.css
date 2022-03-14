@@ -17,6 +17,7 @@ h2 {
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 h3 {
@@ -79,9 +80,23 @@ header {
           
 }
 
-.color-break {
+footer {
     background-color: #EBE4D7;
     display: flex;
+    padding: 1rem 0;
+    padding-left: 2rem;
+}
+
+.footer {
+    color: #2F5057;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.color-break {
+    background-color: #EBE4D7;
     padding: 1rem 0;
     padding-left: 2rem;
     margin: 0;
@@ -90,12 +105,11 @@ header {
 .menu-background {
     background-color: #C9D2D2;
     border-radius: 25px;
-    display: flex;
     padding: 1rem 0;
     padding-left: 2rem;
-    height: 2120px;
-    width: 1286px;
+    max-width: 1286px;
     margin: auto;
+    margin-bottom: 2rem;
 }
 
 .responsive {
@@ -107,8 +121,16 @@ header {
 @media screen and (min-width: 800px) {
     .two-column {
         display: grid;
-        grid-gap: 3rem;
         grid-template-columns: 1fr 1fr;
+        grid-column: full;
+    }
+    .reverse .headphones {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    .reverse .center-align {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
     }
 }
 
@@ -116,13 +138,14 @@ header {
     margin: auto;
     width: 70%;
     padding: 10px;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
 }
 
 .my-button {
     background: #2F5057;
     border: none;
     border-radius: 8px;
-    display: flex;
     padding: 1rem;
     color: #EBE4D7;
     font-size: 12px;
@@ -130,8 +153,23 @@ header {
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    transform: translate(165%, 50%);
+    display: block;
+    width: auto;
+    margin: 0 auto;
 
+  }
+
+  .map {
+      padding: 5rem
+  }
+
+  .about-columns {
+      gap: 7rem;
+      padding: 0rem 4rem;
+  }
+
+  .about-columns p {
+      max-width: 35rem;
   }
 
 
