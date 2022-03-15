@@ -99,7 +99,7 @@ footer {
 }
 
 .footer {
-    color: #2F5057;
+    color:#EB703C;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -245,7 +245,26 @@ footer {
     color: #2F5057;
     margin-bottom: 4rem;
   }
-  
+
+  .fa-instagram {
+      color: #EB703C;
+      font-size: 24px;
+      padding-left: 2rem;
+  }
+
+  .fa-facebook-f {
+    color: #EB703C;
+    font-size: 24px;
+    margin-left: 1.5rem;
+  }
+
+  .fa-twitter {
+    color: #EB703C;
+    font-size: 24px;
+    margin-left: 1.5rem;
+  }
+
+
   @media screen and (min-width: 800px) {
     .menus {
       display: grid;
