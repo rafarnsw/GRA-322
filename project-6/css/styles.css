@@ -28,9 +28,21 @@ h2 {
     font-family: 'Montserrat', sans-serif;
 }
 
+h3 {
+    padding-top: 5rem;
+    text-align: center;
+    color: #5F5F5F;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 p {
     padding-top: 2rem;
     padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
     color: #5F5F5F;
     font-size: 12px;
     font-weight: 400;
@@ -38,9 +50,51 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+.my-button {
+    background: black;
+    border: none;
+    border-radius: 17px;
+    padding: .75rem;
+    color: #EBE4D7;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .photo1 {
+    min-width: 500px;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .photo2 {
+    min-width: 500px;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .photo3 {
+    min-width: 500px;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
+.row {
+    column-count: 2;
+  }
 
 
-
+  
 .grid {
     display: grid;
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
@@ -85,34 +139,11 @@ footer {
     }
 }
 
-.center-align {
-    margin: auto;
-    width: 70%;
-    padding: 10px;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-}
 
-.my-button {
-    background: black;
-    border: none;
-    border-radius: 12px;
-    padding: 1rem;
-    color: #EBE4D7;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
-    display: block;
-    width: auto;
-    margin: 0 auto;
 
-  }
 
-  .map {
-      padding: 2rem;
-      margin-bottom: 4rem;
-  }
+
+
 
  
 
