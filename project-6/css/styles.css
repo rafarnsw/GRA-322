@@ -2,6 +2,12 @@
     margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  
+}
+
+
 header {
     background-color: black;
     display: flex;
