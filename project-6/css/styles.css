@@ -123,6 +123,8 @@ footer {
   }
 
 
+
+
 @media screen and (min-width: 800px) {
     .two-column {
         display: grid;
@@ -137,6 +139,56 @@ footer {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
+
+    .desktop {
+      padding: 5rem;
+      padding-top: 6rem;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: ;
+    }
+
+    h3 {
+      font-size: 32px;
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+    }
+
+
+    .my-button {
+      background: black;
+      border: none;
+      border-radius: 17px;
+      padding: 1rem;
+      color: #EBE4D7;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      font-family: 'Montserrat', sans-serif;
+      display: block;
+      width: auto;
+      margin-top: 35px;
+    }
+
+    .my-button:hover {
+      background: #6F6F6F;
+      
+    }
+    
+    .photos {
+      display: flex;
+    }
+
+    .photos2 {
+      display: flex;
+    }
+  
 }
 
 
