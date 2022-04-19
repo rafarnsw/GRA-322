@@ -3,8 +3,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
-  
+  scroll-behavior: smooth; 
 }
 
 
@@ -67,7 +66,10 @@ p {
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
     display: block;
+    text-decoration: none;
+    text-align: center;
     width: auto;
+    max-width: 150px;
     margin: 0 auto;
   }
 
@@ -144,6 +146,13 @@ footer {
     .reverse .center-align {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
+    }
+
+    .work-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      padding: 0 3rem;
     }
 
     .desktop {
