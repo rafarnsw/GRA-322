@@ -15,6 +15,20 @@ header {
           
 }
 
+a {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none; 
+}
+
+a:hover {
+  color: #6F6F6F;
+  
+}
+
 h1 {
     color: white;
     font-size: 13px;
@@ -97,9 +111,7 @@ p {
     padding-bottom: 4rem;
   }
 
-.row {
-    column-count: 2;
-  }
+
 
 
   
@@ -130,7 +142,12 @@ footer {
     height: auto;
   }
 
-
+  iframe {
+    display: block;
+    margin: 0 auto;
+    padding-top: 3rem;
+ }
+ 
 
 
 @media screen and (min-width: 800px) {
@@ -153,11 +170,18 @@ footer {
       grid-template-columns: 1fr 1fr;
       gap: 3rem;
       padding: 0 3rem;
+      margin-bottom: 3rem;
     }
+
+    .img {
+      grid-column: 2 / 3
+    }
+
 
     .desktop {
       padding: 5rem;
       padding-top: 6rem;
+      grid-column: 1 / 2
     }
 
     p {
@@ -192,6 +216,7 @@ footer {
 
     .my-button:hover {
       background: #6F6F6F;
+      color: #EBE4D7;
       
     }
     
@@ -202,22 +227,22 @@ footer {
     .photos2 {
       display: flex;
     }
+
+    .row{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
   
 }
 
-
-
-
-
-
-
- 
 
 
   @media screen and (min-width: 800px) {
     .menus {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      grid-column: 2/3;
     }
   }
+
   
