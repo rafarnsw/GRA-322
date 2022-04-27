@@ -133,6 +133,13 @@ footer {
     padding-left: 2rem;
 }
 
+.work-grid img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  padding: 0 3rem;
+  margin-bottom: 3rem;
+}
 
 
 
@@ -147,7 +154,16 @@ footer {
     margin: 0 auto;
     padding-top: 3rem;
  }
+
+ .desktop {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
  
+.desktop-home {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
 
 
 @media screen and (min-width: 800px) {
@@ -156,11 +172,11 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-column: full;
     }
-    .reverse .headphones {
+    .img {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
     }
-    .reverse .center-align {
+   .desktop {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
@@ -182,6 +198,12 @@ footer {
       padding: 5rem;
       padding-top: 6rem;
       grid-column: 1 / 2
+      grid-row: 1/2
+    }
+
+    .desktop-home {
+      padding: 5rem;
+      padding-top: 6rem;
     }
 
     p {
